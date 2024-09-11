@@ -1,0 +1,30 @@
+Agencia de inovação - parte da ufrj voltada para empreendedorismo
+8h do meu dia na UFRJ, TRANSFORMAR ISSO EM TRABALHO
+
+blocos fundamentais:
+    -declarar uma varaiavel --
+    -declarar uma função -- 
+    -laços de repetição --
+    -condicionais --
+
+para segunda feira: 
+    -compilador C instalado --
+    -exemplos estudados
+
+    memoria fortemente tipada: você tem que alocar a memoria no computador
+    
+pesquisar:
+    tipos de dados que da pra coletar
+    diferença de %d, %f, %c, %s
+
+coisas novas da aula
+    -scanf
+    -operador %
+
+final de semana:
+    codigos da maratona de programação
+    recursão
+
+diagrama de atividades:
+     
+     É um fluxograma de como vai funcionar o codigos
