@@ -1,0 +1,131 @@
+funções:
+    INSERIR PRODUTOS:
+        incluir codigo,nome,preço e quantidade no estoque. O codigo de cada produto é unico
+    LISTAR PRODUTOS:
+        listar todos os produtos com as informações completas
+    BUSCAR PRODUTO PELO NOME
+        buscar produto pelo nome e exibir as informações
+    EXCLUIR PRODUTO
+        excluir produto pelo nome
+    MENU:
+        um menu onde o user escolhe que função executar
+
+Produto deve ter:
+    nome(string)
+    codigo(int)
+    preço(float)
+    quantidade(int)
+
+Regras e considerações
+    100 produtos no maximo
+    array para armazenar os produtos
+=======================================================================
+    #include <stdio.h>
+void main() {
+  char operation;
+  double n1, n2;
+  printf("enter an operator (+,-,*,/): ");
+  scanf("%c", &operation);
+  printf("enter two operands");
+  scanf("%lf %f", &n1, &n2);
+  
+  switch(operation){
+      case '+':
+        printf("%.1lf + %.1lf = %.1lf", n1, n2, n1 + n2);
+        break;
+        
+      case '-':
+        printf("%.1lf - %.1lf = %.1lf", n1, n2, n1 - n2);
+        break;
+  
+      case '*':
+        printf("%.1lf * %.1lf = %.1lf", n1, n2, n1 * n2);
+        break; 
+     
+      case '/':
+        printf("%.1lf / %.1lf = %.1lf", n1, n2, n1 / n2);
+        break;
+     
+      default:
+         printf("operador desconhecido");
+  
+  }
+  
+  
+
+}
+=======================================================================
+
+#include<stdio.h>
+#include<string.h>
+
+char op;
+
+typedef struct{
+    int codigo;
+    char nome[100];
+    float preco;
+    int quantidade;
+}Lista;
+
+void menu();
+void inserir();
+
+Lista Produto[100];
+
+int main() {
+    int x = 1;
+    
+    while(x = 1) {
+    
+    menu();
+    
+    switch (op){
+    case '1':
+        inserir();
+     case '2':
+         listar();
+      case '3':
+           buscar();
+       case '4':
+              excluir();
+         case '5':
+             sair();
+          default:
+              printf("opcao invalida");
+              menu();
+    
+    }    
+    return 0;
+}
+}
+
+void menu(){
+    printf("=== Menu de Opções ===\n1. Inserir produto\n2. Listar todos os produtos\n3. Buscar produto por nome\n 4. Excluir produto por nome\n 5. Sair\n Escolha uma opção: ");
+    scanf("%c", &op);
+}
+
+void inserir (){
+    int i = 0;
+    char nome2[100];
+    printf("Digite o código do produto: ");
+    scanf("%d", &Produto[i].codigo);
+    printf("Digite o nome do produto: ");
+    scanf("%s", &nome2);
+    strcpy(Produto[i].nome, nome2);
+    printf("Digite o preço do produto: ");
+    scanf("%f", &Produto[i].preco);
+    printf("Digite a quantidade em estoque: ");
+    scanf("%d", &Produto[i].quantidade);
+}
+
+    for(int t = 0; t<i;t++){
+        printf("entrei no for");
+        if(busca == Produto[t].nome){
+        printf("%d\n",Produto[t].codigo);
+        printf("%s\n",Produto[t].nome);
+        printf("%f\n",Produto[t].preco);
+        printf("%d\n",Produto[t].quantidade);
+        }
+    }
+}

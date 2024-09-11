@@ -1,0 +1,10 @@
+ponteiro: apontador para endereço de memória
+
+int variavel = 10;
+int *ponteiro = &variavel;
+
+variavel = 10
+&variavel = endereço na memória alocado para "variavel"
+&ponteiro = endereço na memória alocado para "ponteiro"
+ponteiro = endereço na memória alocado para a variavel apontada (variavel)
+*ponteiro = 10 (conteúdo de variavel o qual esta sendo apontada)

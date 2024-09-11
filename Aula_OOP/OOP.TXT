@@ -1,0 +1,12 @@
+OOP - PADRÃO UTILIZADO PARA RESOLVER UM TIPO ESPECÍFICO DE PROBLEMA
+    PROBLEMAS DIFERENTES POSSUEM PADRÕES DIFERENTES PARA RESOLVER
+
+    REPRESENTAR UM CONJUNTO DE "PROBLEMAS" PERTENCENTES A UM OBJETO EM SEU PROGRAMA
+
+"class" - tipos de dados definidos pelo user
+
+private - nao da pra acessar fora da class
+public - da pra acessar fora da class
+protected - entre os dois 
+
+metodos da class são os comportamentos - função dentro da class
