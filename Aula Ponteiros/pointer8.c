@@ -16,6 +16,6 @@ int main()
     for(int c = 0; c < n; c++){
         printf("%d\n",ptr[c]);
     }
-    
+    free(ptr);
     return 0;
 }

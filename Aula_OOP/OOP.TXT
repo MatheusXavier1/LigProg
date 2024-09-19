@@ -1,12 +1,18 @@
-OOP - PADRÃO UTILIZADO PARA RESOLVER UM TIPO ESPECÍFICO DE PROBLEMA
-    PROBLEMAS DIFERENTES POSSUEM PADRÕES DIFERENTES PARA RESOLVER
+OOP - Uma forma de organizar problemas da vida real dentro de programas representando seus dados e comportamentos por meio de classes e objetos
 
-    REPRESENTAR UM CONJUNTO DE "PROBLEMAS" PERTENCENTES A UM OBJETO EM SEU PROGRAMA
+Classe - Espécie geral (carro)
 
-"class" - tipos de dados definidos pelo user
+Objeto/Instância - Variavel de uma 'espécie' (ferrari)
 
-private - nao da pra acessar fora da class
-public - da pra acessar fora da class
-protected - entre os dois 
+Métodos - Funções que representam "comportamentos" relacionadas a um objeto ou classe
 
-metodos da class são os comportamentos - função dentro da class
+Construtores - Métodos inicializados toda vez que um novo objeto é criado.
+
+Encapsulamento:
+    Privado: Não é possivel acessar fora da class, apenas com getters e setters
+    Público: É possivel acessar fora da classe
+    Protegido: Podem ser acessados dentro da classe e por classes herdeiras
+
+Herança: Uma classe herdar características em comum de outra
+
+Polimorfismo - Diferentes execuções para um mesmo método 

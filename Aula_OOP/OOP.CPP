@@ -14,19 +14,18 @@ public: // se não tem nada, tá private
         std::cout<<"Empresa - "<< empresa << std::endl;
         std::cout<<"Idade - " << idade << std::endl;
     }
+    empregado(string n, string e, int i){
+        nome = n;
+        empresa = e;
+        idade = i;
+
+    }
 };
 int main(){
 
-    empregado empregado1; // criando o objeto empregado1 da classe empregado
-    empregado1.nome = "saldina";
-    empregado1.empresa = "youtube-code";
-    empregado1.idade = 25;
+    empregado empregado1 = empregado("matheus","ufrj", 18); // criando o objeto empregado1 da classe empregado
     empregado1.apresenta();
 
-    empregado empregado2;
-    empregado2.nome = "matheus";
-    empregado2.empresa = "ufrj";
-    empregado2.idade = 18;
-
+    empregado empregado2 = empregado("lilian","universo",49);
     empregado2.apresenta();
 }
