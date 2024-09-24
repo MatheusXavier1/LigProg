@@ -15,4 +15,13 @@ Encapsulamento:
 
 Herança: Uma classe herdar características em comum de outra
 
-Polimorfismo - Diferentes execuções para um mesmo método 
+Polimorfismo - Diferentes execuções para um mesmo método
+    Compile time: compilador decide qual método será escolhido
+        Function Overloading: O compilador decide qual função chamar com base nos argumentos passado
+        Operator Overloading: ...
+    Run Time: ....
+        Virtual Function: ...
+
+Classe abstrata:
+    uma classe que serve como modelo de como as heranças dessa classe deve se comportar
+    possui uma função virtual: "virtual void Area()=0" //qual é a diferença de função virtual/class abstrata e Polimorfismo
